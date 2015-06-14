@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JUEGO_POKEMON</title>
+    <style>
+     article{
+      overflow:hidden;
+     }
+     body{
+      background:pink;
+     }
+     header h1{
+       text-align:center;
+     }
+
+     figure{
+       float:left;
+       margin-left:26%;
+     }
+
+     footer{
+      text-align:center;
+      margin-top:16%;
+      padding:.7em 0;
+     }
+     #section_secundario  #winner{
+     text-align:center;
+     }
+
+    </style>
+     <script src="script.js"></script>
+</head>
+<body>
+	 <header>	 	
+	 	<h1>JUEGO POKEMON</h1>
+	 </header>
+     <main>
+       <article id="section_principal">
+       	<figure>
+       		 <img src="images/poke1.jpg">
+       		 <p id="pokemon1">POLVASOR</p>
+       		 <p>Vida_Polvasor:<span id="polva_vida"></span></p>
+       		 <p>Ataque_Polvasor:<span id="polva_ata"></span></p>
+       		 <p><input type="button" id="turno_polva"  value="POLVASOR"/></p>
+       	</figure>
+       	<figure>
+       		 <img src="images/poke2.jpg">
+       		 <p id="pokemon2">PIKACHU</p>
+              <p>Vida_Pika:<span id="pika_vida"></span> </p>
+       		  <p>Ataque_Pikachu:<span id="pika_ata"></span></p>
+       		  <p><input type="button" id="turno_pika"  value="PIKACHU"/></p>
+       	</figure>
+       </article>
+       <article id="section_secundario">
+           <p id="winner">------------------------</p> 	
+        </article>
+     <main>
+    <footer>    	
+      	<p>Mejorando.la</p>
+    </footer>
+     <script>
+      inicio();
+     </script>
+</body>
+</html>
